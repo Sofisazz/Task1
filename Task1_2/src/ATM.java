@@ -94,7 +94,9 @@ public class ATM {
                 return false;
             }
         }
+        in.close();
         System.out.print(sms + "\nОперация: ");
         return true;
     }
 }
+
